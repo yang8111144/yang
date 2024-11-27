@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title> 위스키 설문 시작</title>
+</head>
+<body>
+    <h1> 위스키 추천 웹 설문</h1>
+    <form method="get" action="result.html" id="userdata">
+        <h3>1. 가성비 VS 프리미엄</h3>
+        <hr />
+        <input type="radio" name="price" value='0' />
+        <label>가성비</label>
+        <br />
+        <input type="radio" name="price" value='1' />
+        <label>프리미엄</label>
+        <hr />
+
+        <h3>2. 알코올 맛</h3>
+        <hr />
+        <input type="radio" name="alcohol" value='0' />
+        <label>강하게 남</label>
+        <br />
+        <input type="radio" name="alcohol" value='1'/>
+        <label>약하게 남</label>
+        <hr />
+
+        <h3>3. 과일향 VS 초콜릿, 바닐라향</h3>
+        <hr />
+        <input type="radio" name="type" value='0' />
+        <label>과일향</label>
+        <br />
+        <input type="radio" name="type" value='1'/>
+        <label>초콜릿, 바닐라향</label>
+        <hr />
+
+        <h3>4. 스모키향 강하게 VS 약하게</h3>
+        <hr />
+        <input type="radio" name="smoky" value='0' />
+        <label>강하게</label>
+        <br />
+        <input type="radio" name="smoky" value='1'/>
+        <label>약하게</label>
+        <hr />
+        <input type="submit" value="추천 결과 보기" />
+    </form>
+    <br />
+    <button onclick="history.back()">이전페이지</button>
+</body>
+</html>
